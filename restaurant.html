@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bellyfull Junction - Menu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background: url('restaurant-header.jpg') no-repeat center center/cover;
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+            position: relative;
+        }
+        header::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        header h1, header p {
+            position: relative;
+            z-index: 2;
+        }
+        .section-title {
+            font-weight: bold;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        footer {
+            background: #222;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .price {
+            font-weight: bold;
+            color: #28a745;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="btn btn-primary mt-3">← Back to Home</a>
+
+    
+    <!-- Your restaurant menu content goes here -->
+
+<!-- Header Section -->
+<header>
+
+
+    <h1>Bellyfull Junction</h1>
+    <p>Fresh • Tasty • Delivered</p>
+</header>
+
+<div class="container">
+
+    <!-- About Section -->
+    <h2 class="section-title">Our Story</h2>
+    <p>Welcome to Bellyfull Junction, where we serve mouth-watering rolls, noodles, burgers, and Manchurian — all made with fresh ingredients and love. Perfect for dine-in, takeaway, or online orders.</p>
+
+    <!-- Menu Section -->
+    <h2 class="section-title">Our Menu</h2>
+    <div class="row">
+
+        <!-- Menu Item 1 -->
+        <div class="col-md-4 col-sm-6 mb-3">
+            <div class="card">
+                <img src="Noddles.jpeg" class="card-img-top" alt="Noodles">
+                <div class="card-body">
+                    <h5 class="card-title">Veg Noodles</h5>
+                    <p class="card-text">Hot and fresh noodles with mixed vegetables.</p>
+                    <p class="price">₹80</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Menu Item 2 -->
+        <div class="col-md-4 col-sm-6 mb-3">
+            <div class="card">
+                <img src="Burger.jpeg" class="card-img-top" alt="Burger">
+                <div class="card-body">
+                    <h5 class="card-title">Cheese Burger</h5>
+                    <p class="card-text">Juicy burger with melting cheese and fresh veggies.</p>
+                    <p class="price">₹90</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Menu Item 3 -->
+        <div class="col-md-4 col-sm-6 mb-3">
+            <div class="card">
+                <img src="Roll.jpeg" class="card-img-top" alt="Roll">
+                <div class="card-body">
+                    <h5 class="card-title">Paneer Roll</h5>
+                    <p class="card-text">Soft roti stuffed with paneer and tangy sauce.</p>
+                    <p class="price">₹70</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Order Section -->
+    <h2 class="section-title">Order Now</h2>
+    <p>📞 Call: <a href="tel:+917007336075">+91 7007336075</a></p>
+    <p>💬 WhatsApp: <a href="https://wa.me/917007336075" target="_blank">Click to Chat</a></p>
+    <p>📍 Location: <a href="https://maps.google.com/?q=Lucknow" target="_blank">View on Map</a></p>
+
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>© 2025 Bellyfull Junction. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
